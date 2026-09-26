@@ -1,0 +1,74 @@
+.login-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: rgb(0, 6, 43, 0.8);
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    min-width: 300px;
+    border-radius: 6px;
+    background: rgb(0, 0, 50, 0.8);
+    padding: 40px;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.4);
+    color: white;
+    background:rgba(255,255,255,0.05);
+}
+
+.form-group {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.login-form input {
+    align-items: center;
+    padding: 6px;
+    border: 0px solid ;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 0px 0px 1.5px 0px;
+    width: 100%;
+}
+
+.login-form button {
+    width: 100%;
+    padding: 10px;
+    border: 0px solid;
+    border-radius: 10px;
+    color: white;
+    background: navy;
+    box-shadow: 0 0px 8px 0px rgba(0, 0, 0, 0.4);
+    margin-top: 20px;
+}
+
+.login-form button:hover {
+    background: rgb(2, 2, 194);
+}
+
+.legend {
+    text-align: center;
+    font-size: 24px;
+}
+
+.register-here-link {
+    text-align: center;
+}
+
+.register-here-link a:hover {
+    text-decoration: none;
+    color: blue;
+}
+
+.error-message {
+    color: red;
+    text-align: center;
+}

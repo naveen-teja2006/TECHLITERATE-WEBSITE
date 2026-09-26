@@ -1,0 +1,22 @@
+.layout{
+    display:flex;
+}
+.navbar-layout{
+    position: fixed;
+    top:0;
+    left:0;
+}
+.pages-layout{
+    background:linear-gradient(120deg,rgb(0, 6, 43, 0.5),rgb(0, 6, 43, 1));
+    /* margin-left:288px; */
+    flex:1;
+}
+
+@media(max-width:680px){
+    /* .layout{
+        display:flex;
+    } */
+    .pages-layout{
+        margin-left:0;
+    }
+}
