@@ -13,7 +13,7 @@ function authenticateToken(req, res, next) {
         // is in the format "Bearer <token>" so we 
         // split it by space and take the second part which is the token
         const token = authHeader.split(" ")[1];
-        // console the token for testing through the browser
+        // console the user token for testing through the browser
         console.log("Token: ", token);
         if (!token) {
             // Client side error so 401
