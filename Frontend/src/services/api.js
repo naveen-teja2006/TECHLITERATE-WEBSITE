@@ -12,4 +12,3 @@ export async function getRoles(){
     return data;
 } 
 
-exports

@@ -30,9 +30,11 @@ function Dashboard() {
         }
         fetchUserRoles();
     }, []);
+    // Progress cards for displaying the user roles
     let progress_cards = [
         { title: "Frontend Developer" }, { title: "Backend Developer" }, { title: "Full Stack Developer" }
     ];
+    // UI rendering
     return (
         <>
             <div className="dashboard-section">
@@ -45,16 +47,16 @@ function Dashboard() {
                     <div className="header-streak-card">
                         🔥 Streak <br /><br /> 3 days
                     </div>
-                    <div className="header-no-of-carrer-roles-card">
-                        📈 Carrer Roles <br /><br /> 3+
+                    <div className="header-no-of-career-roles-card">
+                        📈 Career Roles <br /><br /> 3+
                     </div>
                     <div className="header-no-of-resources-card">
                         📚 Resources <br /><br /> 40+
                     </div>
                 </div>
-                <div className="carrer-role-continue-learning">
-                    <h1 className="carrer-path-title">Continue Learning</h1>
-                    <p className="carrer-path-description">Learn build and grow</p>
+                <div className="career-role-continue-learning">
+                    <h1 className="career-path-title">Continue Learning</h1>
+                    <p className="career-path-description">Learn build and grow</p>
                     <div className='role-cards-dashboard'>
                         {selectedRole.map((card) => {
                             return (
