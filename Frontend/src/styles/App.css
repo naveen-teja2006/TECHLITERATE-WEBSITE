@@ -8,7 +8,7 @@
 }
 .pages-layout{
     background:linear-gradient(120deg,rgb(0, 6, 43, 0.5),rgb(0, 6, 43, 1));
-    /* margin-left:288px; */
+    margin-left:288px;
     flex:1;
 }
 

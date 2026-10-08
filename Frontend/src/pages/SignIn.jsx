@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Link, useNavigate } from "react-router-dom";
 import "../styles/SignIn.css";
+import Loader from "../components/Loader.jsx";
 // SignIn Component
 function SignIn() {
   let [formData, setFormData] = useState({ email: "", password: "" });
@@ -40,7 +41,8 @@ function SignIn() {
       localStorage.setItem("userEmail",data.user.email);
       setMessage(data.message);
       alert(data.message);
-      navigate("/home");
+      <Loader />
+      navigate("/choose-role");
       return;
     } catch (error) { // Display the error 
       setMessage(error.message);

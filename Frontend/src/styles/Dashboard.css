@@ -1,125 +1,137 @@
-.welcome-message{
-    color:white;
-    margin:10px;
-    font-size:25px;
-    padding:20px;
-    border-radius:10px;
-    background:rgba(255,255,255,0.1);
+.welcome-message {
+    color: white;
+    margin: 10px;
+    font-size: 25px;
+    padding: 20px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.1);
 }
 
-.welcome-message span{
-    background:linear-gradient(120deg,blue,white);
+.welcome-message span {
+    background: linear-gradient(120deg, blue, white);
     -webkit-background-clip: text;
-    color:transparent;
+    color: transparent;
 }
-.quote-under-welcome-message{
-    color:gray;
+
+.quote-under-welcome-message {
+    color: gray;
     font-size: 20px;
 }
 
-.dashboard-header-cards{
-    display:grid;
-    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
-    margin:15px;
-    gap:20px;
+.dashboard-header-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    margin: 15px;
+    gap: 20px;
 }
 
-.header-streak-card,.header-no-of-carrer-roles-card,.header-no-of-resources-card{
-    background:rgba(255,255,255,0.05);
-    padding:25px;
-    text-align:center;
-    border-radius:10px;
-    font-size:25px;
-    color:white;
-}
-.carrer-path-title{
-    color:white;
-    text-align:center;
+.header-streak-card,
+.header-no-of-carrer-roles-card,
+.header-no-of-resources-card {
+    background: rgba(255, 255, 255, 0.05);
+    padding: 25px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 25px;
+    color: white;
 }
 
-.carrer-path-description{
-    color:gray;
-    text-align:center;
+.carrer-path-title {
+    color: white;
+    text-align: center;
 }
 
-.carrer-roles-cards{
-    display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+.carrer-path-description {
+    color: gray;
+    text-align: center;
 }
 
-.carrer-page-card{
+.carrer-roles-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.carrer-page-card {
     margin: 10px;
     min-height: 180px;
-    background: rgba(255,255,255,0.05);
+    background: rgba(255, 255, 255, 0.05);
     box-shadow: 0px 0px 10px 1px rgba(1, 38, 59, 1);
     padding: 15px;
     border-radius: 5px;
-    transition:all 0.3s linear;
+    transition: all 0.3s linear;
 }
 
 .carrer-page-card:hover {
     transform: translateY(-10px);
 }
 
-.role-cards-dashboard{
-    /* display:grid; */
-    display:flex;
-    flex-wrap:wrap;
-    width:250px;
-    margin-left:20px;
-    background: rgba(255,255,255,0.05);
+.role-cards-dashboard {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    margin:10px;
+}
+
+.roles-cards-dashboard:hover {
+    transform: translateY(-10px);
+}
+
+.carrer-role-card-dashboard {
+    margin:15px;
+    background: rgba(255, 255, 255, 0.05);
     box-shadow: 0px 0px 10px 1px rgba(1, 38, 59, 1);
-    padding:15px;
-    /* grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); */
+    padding: 15px;
 }
 
-.roles-cards-dashboard:hover{
-     transform: translateY(-10px);
-}
-.start-carrer-learning{
-    background:navy;
-    border:0px solid;
-    padding:10px;
-    border-radius:15px;
-    color:white;
-    width:100%;
+.start-carrer-learning {
+    background: navy;
+    border: 0px solid;
+    padding: 10px;
+    border-radius: 15px;
+    color: white;
+    width: 100%;
 }
 
-.start-carrer-learning:hover{
-    background:blue;
+.start-carrer-learning:hover {
+    background: blue;
 }
 
 /* Progress Tracking */
-.progress-tracking-title{
-    color:white;
+.progress-tracking-title {
+    color: white;
     text-align: center;
 }
-.progress-cards{
-    display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-    gap:30px;
-    margin:20px;
+
+.progress-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    margin: 20px;
 }
-.role-id-in-continue-learning{
-    color:white;
-    font-size:30px;
+
+.role-id-in-continue-learning {
+    color: white;
+    font-size: 30px;
     text-align: center;
 }
-.progress-track{
-    width:100px;
-    height:100px;
-    border:5px solid blue;
-    border-top:5px solid lightblue;
-    justify-self:center;
-    border-radius:50%;
+
+.progress-track {
+    width: 100px;
+    height: 100px;
+    border: 5px solid blue;
+    border-top: 5px solid lightblue;
+    justify-self: center;
+    border-radius: 50%;
 }
-.each-progress-card{
-    background: rgba(255,255,255,0.05);
-    border-radius:10px;
+
+.each-progress-card {
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 10px;
     box-shadow: 0px 0px 10px 1px rgba(1, 38, 59, 1);
-    padding:15px;
+    padding: 15px;
 }
-.each-progress-card p{
-    text-align:center;
-    color:white;
+
+.each-progress-card p {
+    text-align: center;
+    color: white;
 }

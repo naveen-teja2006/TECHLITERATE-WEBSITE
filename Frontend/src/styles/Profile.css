@@ -1,0 +1,14 @@
+.user-profile-page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color:white;
+}
+.profile-info{
+    text-align: center;
+     background: rgba(255,255,255,0.06);
+     padding:15px;
+     border-radius:10px;
+}

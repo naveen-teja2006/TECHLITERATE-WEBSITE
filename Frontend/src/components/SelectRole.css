@@ -1,13 +1,40 @@
-.choose-role-title{
-    color:white;
-    text-align:center;
+.choose-role-title {
+    color: white;
+    text-align: center;
 }
-.choose-role-title p{
-    color:blue;
-    background:rgba(rgb(7, 7, 184,3));
-    width:max-content;
-    justify-self:center;
-    padding:5px;
-    box-shadow:0px 0px 10px 0px navy;
-    border-radius:15px;
+
+.choose-role-title p {
+    color: blue;
+    /* background:rgba(rgb(7, 7, 184,3)); */
+    background: rgba(8, 48, 224, 0.1);
+    width: max-content;
+    justify-self: center;
+    padding: 8px;
+    box-shadow: 0px 0px 5px 0px navy;
+    border-radius: 15px;
+}
+
+.after-roles-selection-btn {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.after-roles-selection-btn button {
+    color: white;
+    background: navy;
+    padding: 10px;
+    border-radius: 5px;
+    border: 0px solid;
+    font-weight: bold;
+}
+
+.after-roles-selection-btn button:hover {
+    background: rgb(1, 1, 189);
+    cursor: pointer;
+}
+
+.roles-saved-or-not-message{
+    
 }

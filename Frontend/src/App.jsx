@@ -8,6 +8,7 @@ import Profile from "./pages/Profile.jsx";
 import Home from "./pages/Home.jsx";
 import Dashboard from "./pages/Dashboard.jsx";
 import Resources from "./pages/Resources.jsx";
+import Skills from "./pages/Skills.jsx";
 import Footer from "./components/Footer.jsx";
 import SplashScreen from "../src/pages/splashScreen.jsx";
 import "./styles/App.css";
@@ -45,6 +46,7 @@ function App() {
                         <Route path="/resources" element={<Resources />}></Route>
                         <Route path="/choose-role" element={<SelectRole />}></Route>
                         <Route path="/profile" element={<Profile />}></Route>
+                        <Route path="/skills" element={<Skills />}></Route>
                     </Routes>
                 </div>
             </div>
